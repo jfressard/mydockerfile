@@ -1,2 +1,3 @@
 FROM nginx
-CMD echo Hello World
+COPY static-html-directory /usr/share/nginx/html
+VOLUME /merde
